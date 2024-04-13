@@ -1,0 +1,109 @@
+body article {
+   width: 50%;
+   margin: 20px auto;
+   text-align: center;
+   border-collapse: collapse;
+   border: 1px solid #000;
+   min-width: 400px;
+   box-shadow: 10px 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+.forms1{
+   justify-content: center;
+   align-items: center;
+   width: 100%;
+}
+
+.forms1 h2{
+    text-align: center;
+    color:brown;
+    font-size: 2rem;
+}
+
+.forms1 p{
+   text-align: center;
+   color: black;
+   font-size: 0.9rem;
+}
+
+.forms1 form{
+   display: grid;
+   grid-template-columns:auto;
+   grid-gap: 20px;
+   margin-bottom: 20px;
+}
+
+.field {
+   margin: 10px 5px;
+}
+
+.field label{
+   display: inline-block;
+   width: 105px;
+   vertical-align: top;
+}
+
+.field input{
+   width: 200px;
+}
+.field textarea{
+   width: 200px;
+}
+.field select{
+   width: 208px;
+}
+.forms1 fieldset{
+   border: 2px solid rgb(68, 0, 0);
+}
+.forms1 fieldset legend{
+   font-size: 18px;
+   font-weight: bold;
+   padding: 0 10px;
+}
+.submit{
+   border: 2px solid rgb(68, 0, 0);
+   padding: 20px;
+   margin-top: 9px;
+   text-align: center;
+   margin-bottom: 20px;
+}
+.submit div{
+   margin: 0 0 10px 0;
+}
+
+.checkboxfield {
+   display: grid;
+   grid-template-columns: repeat(2, 1fr);
+   grid-gap: 10px;
+}
+
+.checkbox label {
+   display: block;
+}
+
+.button{
+   width: 30%;
+   margin: 0 auto;
+   display: flex;
+   cursor: pointer;
+   border: 2px solid rgb(68, 0, 0);
+   background-color: rgb(68, 0, 0);
+   color: white;
+   font-weight: bold;
+   padding: 5px 5px;
+   font-size: 1.5rem;
+   align-items: center;
+   justify-content: center;
+   text-align: center;
+   text-decoration: none;
+}
+
+a button{
+   cursor: pointer;
+   border: 2px solid rgb(68, 0, 0);
+   background-color: rgb(68, 0, 0);
+   color: white;
+   font-weight: bold;
+   font-size: 1rem;
+   text-decoration: none;
+}
